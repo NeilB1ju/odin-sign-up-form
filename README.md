@@ -1,1 +1,1 @@
-# odin-sign-up-form
+This is the UI for a sign up form made while following the odin project web development course

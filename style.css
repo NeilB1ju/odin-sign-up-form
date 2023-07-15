@@ -1,0 +1,40 @@
+:root{
+    --form-background:RGB(224,82,91);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #B9B9B9;
+}
+
+
+.wrapper{
+    display:flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+
+.image{
+    width: 40%;
+    background-image: url(./images/swordfish.jpg);
+    background-size: cover;
+}
+
+
+/* Styling the main content of the web page */
+.content{
+    width:60%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+p{
+    font-size: 1.4rem;
+}
