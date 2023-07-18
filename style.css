@@ -11,13 +11,11 @@
     color: #B9B9B9;
 }
 
-
 .wrapper{
     display:flex;
     min-height: 100vh;
     min-width: 100vw;
 }
-
 
 .image{
     width: 40%;
@@ -32,17 +30,16 @@
     padding: 80px;
 }
 
-
 p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
-
 
 .header-text{
     padding-bottom: 40px;
 }
 
 
+/* Styling the form */
 .form{
     width: 100%;
     border: 3px solid var(--form-background);
@@ -73,15 +70,37 @@ form{
 
 input{
     border-color: var(--form-background);
-    width: max(100%,200px);
+    width: 200px;
+}
+
+input:focus{
+    border: 2px solid #24855b;
+    outline: none;
 }
 
 
+/* Elements below the form */
 button{
     background-color: var(--form-background);
-    margin-top: 40px;
-    font-size: 1.2rem;
-    padding: 7px;
-    border-radius: 20px;
+    margin-top: 4%;
+    font-size: 1.3rem;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px;
     color: black;
+    border: none;
 }
+
+button:hover{
+    opacity: 80%;
+}
+
+.login-text{
+    display:flex;
+    padding-top: 3%;
+}
+
+.login{
+    color: var(--form-background)
+}
+
+
